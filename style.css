@@ -1,0 +1,144 @@
+body{
+    padding: 200px;
+ background-image: url(https://cdn.pixabay.com/photo/2017/07/25/19/27/star-2539245_640.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+
+}
+header{
+    color: WHITE;
+}
+
+.neptune{
+border-radius: 50%;
+height:900px ;
+width: 900px;
+border: 1px solid rgb(252, 251, 251);
+
+}
+.nept-pic{
+    border-radius: 50%;
+    height: 65px;
+    width:65px ;
+top: 170px;
+position: absolute;
+left: 680px;
+}
+.uranus{
+    border-radius: 50%;
+    height:800px ;
+    width: 800px;
+    border: 1px solid rgb(255, 248, 248);
+    margin-top: 50px;
+
+}
+.ura-pic{
+    border-radius: 50%;
+    height: 70px;
+    width:70px ;
+left: 380px;
+top:420px ;
+position: absolute;
+}
+.satrun{
+    border-radius: 50%;
+    height:700px ;
+    width: 700px;
+    border: 1px solid rgb(253, 250, 250);
+    margin-top: 50px;
+    
+
+}
+.sat-pic{
+    border-radius: 50%;
+    height: 180px;
+    width:180px ;
+top: 250px;
+right: 520px;
+    position: absolute;
+   
+}
+.jupiter{
+    border-radius: 50%;
+    height:600px ;
+    width: 600px;
+    border: 1px solid rgb(214, 214, 214);
+    margin-top: 50px;
+}
+.jup-pic{
+    border-radius: 50%;
+    height: 100px;
+    width:100px ;
+top:870px ;
+left: 550px;
+    position: absolute;
+}
+.mars{
+    border-radius: 50%;
+    height:500px ;
+    width: 500px;
+    border: 1px solid rgb(215, 213, 213);
+    margin-top: 50px;
+}
+.mars-pic{
+    border-radius: 50%;
+    height: 60px;
+    width:60px ;
+right:550px ;
+top:810px;
+    position: absolute;
+}
+.earth{
+    border-radius: 50%;
+    height:400px ;
+    width: 400px;
+    border: 1px solid rgb(215, 213, 213);
+    margin-top: 50px;
+}.earth-pic{
+    border-radius: 50%;
+    height: 70px;
+    width:70px ;
+    position: absolute;
+    right: 530px;
+    top:620px ;
+
+}
+.venus{
+    border-radius: 50%;
+    height:300px ;
+    width: 300px;
+    border: 1px solid rgb(250, 248, 248);
+    margin-top: 50px;
+}
+.venus-pic{
+    border-radius: 50%;
+    height: 60px;
+    width:60px ;
+    position: absolute;
+    right: 760px;
+    top:490px ;
+}
+.mercury{
+    border-radius: 50%;
+    height:200px ;
+    width: 200px;
+    border: 1px solid rgb(247, 243, 243);
+    margin-top: 50px;
+}
+.mer-pic{
+    border-radius: 50%;
+    height: 50px;
+    width:50px ;
+    position: absolute;
+   left:650px ;
+   top:700px ;
+}
+.sun-pic{
+    border-radius: 50%;
+    height: 150px;
+    width:150px ;
+    position: absolute;
+    left:684px ;
+    top:590px ;
+}
