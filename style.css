@@ -11,134 +11,173 @@ header{
 }
 
 .neptune{
+   position: relative;
 border-radius: 50%;
 height:900px ;
 width: 900px;
 border: 1px solid rgb(252, 251, 251);
+animation: rotate 40s linear infinite;
 
 }
 .nept-pic{
     border-radius: 50%;
     height: 65px;
     width:65px ;
-top: 170px;
+top: 40px;
 position: absolute;
 left: 680px;
 }
 .uranus{
+    position: relative;
     border-radius: 50%;
     height:800px ;
     width: 800px;
     border: 1px solid rgb(255, 248, 248);
     margin-top: 50px;
-
+    animation: rotate 35s linear infinite;
 }
 .ura-pic{
     border-radius: 50%;
     height: 70px;
     width:70px ;
 left: 380px;
-top:420px ;
+top:-25px ;
 position: absolute;
 }
 .satrun{
+    position: relative;
     border-radius: 50%;
     height:700px ;
     width: 700px;
     border: 1px solid rgb(253, 250, 250);
     margin-top: 50px;
-    
-
-}
+    animation: rotate 30s linear infinite;
+    }
 .sat-pic{
     border-radius: 50%;
     height: 180px;
     width:180px ;
-top: 250px;
+top: 30px;
 right: 520px;
     position: absolute;
    
 }
 .jupiter{
+    position: relative;
     border-radius: 50%;
     height:600px ;
     width: 600px;
     border: 1px solid rgb(214, 214, 214);
     margin-top: 50px;
+    animation: rotate 25s linear infinite;
 }
 .jup-pic{
     border-radius: 50%;
     height: 100px;
     width:100px ;
-top:870px ;
-left: 550px;
+top:100px ;
+left: 500px;
     position: absolute;
 }
 .mars{
+    position: relative;
     border-radius: 50%;
     height:500px ;
     width: 500px;
     border: 1px solid rgb(215, 213, 213);
     margin-top: 50px;
+    animation: rotate 20s linear infinite;
 }
 .mars-pic{
     border-radius: 50%;
     height: 60px;
     width:60px ;
-right:550px ;
-top:810px;
+right:440px ;
+top:350px;
     position: absolute;
 }
 .earth{
+    position: relative;
     border-radius: 50%;
     height:400px ;
     width: 400px;
     border: 1px solid rgb(215, 213, 213);
     margin-top: 50px;
-}.earth-pic{
+    animation: rotate 15s linear infinite;
+}
+.earth-pic{
     border-radius: 50%;
     height: 70px;
     width:70px ;
     position: absolute;
-    right: 530px;
-    top:620px ;
+    right: 360px;
+    top:200px ;
 
 }
 .venus{
+    position: relative;
     border-radius: 50%;
     height:300px ;
     width: 300px;
     border: 1px solid rgb(250, 248, 248);
     margin-top: 50px;
+    animation: rotate 10s linear infinite;
 }
 .venus-pic{
     border-radius: 50%;
     height: 60px;
     width:60px ;
     position: absolute;
-    right: 760px;
-    top:490px ;
+    right: 250px;
+    top:200px ;
 }
 .mercury{
+    position: relative;
     border-radius: 50%;
     height:200px ;
     width: 200px;
     border: 1px solid rgb(247, 243, 243);
     margin-top: 50px;
+    animation: rotate 5s linear infinite;
 }
 .mer-pic{
     border-radius: 50%;
     height: 50px;
     width:50px ;
     position: absolute;
-   left:650px ;
-   top:700px ;
+   left:170px ;
+   top:100px ;
+}
+.sun{
+    position: relative;
+    border-radius: 50%;
+    height:100px ;
+    width: 100px;
+    border: 1px solid rgb(247, 243, 243);
+    animation: rotate 150s linear infinite;
+    margin-top: 50px;
+}
+.sunmoon {
+   position: relative;
+   
+}
+.moon{
+    height: 50px;
+    width:50px ;
+   
+    animation: rotate 15s linear infinite;
 }
 .sun-pic{
     border-radius: 50%;
-    height: 150px;
-    width:150px ;
+    height: 120px;
+    width:120px ;
     position: absolute;
-    left:684px ;
-    top:590px ;
+  right: -5px;
+    top:-9px ;
+    
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
 }
